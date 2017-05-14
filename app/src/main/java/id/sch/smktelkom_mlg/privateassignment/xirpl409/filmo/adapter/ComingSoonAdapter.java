@@ -16,14 +16,13 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.model.Result;
 
 /**
- * Created by Louisa on 5/13/2017.
+ * Created by Smktelkom on 5/13/2017.
  */
 
 public class ComingSoonAdapter extends RecyclerView.Adapter<ComingSoonAdapter.ViewHolder> {
     ArrayList<Result> list;
     ComingSoonAdapter.IComingSoonAdapter mIComingSoonAdapter;
     Context context;
-
 
     public ComingSoonAdapter(Context context, ArrayList<Result> list) {
         this.list = list;

@@ -16,7 +16,7 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.model.Result;
 
 /**
- * Created by Louisa on 5/13/2017.
+ * Created by Smktelkom on 5/13/2017.
  */
 
 public class TopAdapter extends RecyclerView.Adapter<TopAdapter.ViewHolder> {
@@ -24,13 +24,11 @@ public class TopAdapter extends RecyclerView.Adapter<TopAdapter.ViewHolder> {
     ISourceAdapter mISourceAdapter;
     Context context;
 
-
     public TopAdapter(Context context, ArrayList<Result> list) {
         this.list = list;
         this.context = context;
         mISourceAdapter = (ISourceAdapter) context;
     }
-
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

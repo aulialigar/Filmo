@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
     }
 
     @Override
@@ -87,10 +85,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-
         if (id == R.id.nav_camera) {
             fragment = new TopFragment();
-            setTitle("Top Playing");
+            setTitle("Top Film");
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
             fragment = new NowFragment();
@@ -98,7 +95,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
             fragment = new SoonFragment();
-            setTitle("Soon Fragment");
+            setTitle("Coming Soon");
 
         } else if (id == R.id.nav_manage) {
 
@@ -113,15 +110,10 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-
     }
-
 
     @Override
     public void showArticles(String title, String overview, String poster_path) {
 
     }
 }
-
-
-

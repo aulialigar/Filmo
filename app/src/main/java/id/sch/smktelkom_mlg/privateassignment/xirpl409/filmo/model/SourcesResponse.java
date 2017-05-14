@@ -2,10 +2,6 @@ package id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.model;
 
 import java.util.List;
 
-/**
- * Created by hyuam on 18/04/2017.
- */
-
 public class SourcesResponse {
     //    "status": "ok",
     //    "results": [{

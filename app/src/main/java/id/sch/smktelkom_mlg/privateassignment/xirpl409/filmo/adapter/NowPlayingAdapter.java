@@ -16,14 +16,13 @@ import id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl409.filmo.model.Result;
 
 /**
- * Created by Louisa on 5/13/2017.
+ * Created by Smktelkom on 5/13/2017.
  */
 
 public class NowPlayingAdapter extends RecyclerView.Adapter<NowPlayingAdapter.ViewHolder> {
     ArrayList<Result> list;
     INowPlayingAdapter mINowPlayingAdapter;
     Context context;
-
 
     public NowPlayingAdapter(Context context, ArrayList<Result> list) {
         this.list = list;

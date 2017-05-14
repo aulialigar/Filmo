@@ -30,5 +30,4 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
         android:textColor="@android:color/black"
         tools:text="Desc" />
-
 </LinearLayout>
