@@ -20,22 +20,22 @@ public class Myintro extends AppIntro {
                 Color.parseColor("#FF6347")));
 
         addSlide(AppIntroFragment.newInstance("Menyediakan berita terkini mengenai film",
-                "Hai",
+                "Welcome",
                 R.drawable.ic_local_movies_black_24dp,
                 Color.parseColor("#CD5C5C")));
 
         addSlide(AppIntroFragment.newInstance("Film terbaik saat ini",
-                "Enjoy it",
+                "Top Film",
                 R.drawable.ic_stars_black_24dp,
                 Color.parseColor("#E9967A")));
 
         addSlide(AppIntroFragment.newInstance("Film yang sedang diputar",
-                "Enjoy it",
+                "Now Playing",
                 R.drawable.ic_play_circle_outline_black_24dp,
                 Color.parseColor("#FFA07A")));
 
         addSlide(AppIntroFragment.newInstance("Film yang akan datang",
-                "Enjoy it",
+                "Coming Soon",
                 R.drawable.ic_update_black_24dp,
                 Color.parseColor("#DB7093")));
 
@@ -45,8 +45,8 @@ public class Myintro extends AppIntro {
                 Color.parseColor("#FF6347")));
 
         showStatusBar(false);
-        setBarColor(Color.parseColor("#000080"));
-        setSeparatorColor(Color.parseColor("#00FFFF"));
+        setBarColor(Color.parseColor("#333639"));
+        setSeparatorColor(Color.parseColor("#2196F3"));
     }
 
     @Override
